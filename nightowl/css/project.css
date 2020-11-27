@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.container{
+	width: 1366px;
+	height: 100vh;
+	background-image: url("../html/projects.jpg");
+	background-position: center;
+	background-size: cover;
+	padding-left: 27%;
+	padding-right: 27%;
+	box-sizing: border-box;
+	position: relative;
+	
+
+
+}
+.navbar{
+	height: 100%
+	width: 15vh;
+	display:flex;
+	align-items: center; 
+	top: 10px;
+}
+.logo{
+	cursor: pointer;
+	margin-left: 280px;
+	position: absolute;
+	top: 10px;
+}
+nav{
+	flex: 1;
+	text-align: center;
+	background: transparent;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	
+
+}
+nav ul li a{
+	text-decoration: none;
+	color: #747a87;
+	font-size:13px;
+	display: block;
+	padding: 10px 30px;
+    padding-top: 50px;
+}
+nav ul li a:hover{
+	
+	color: blue;
+}
+li.left{
+	float: left;
+}
+li.right{
+	float: right;
+	
+
+}
+}
+nav ul li a:hover{color: blue}
+
+
+.content{
+	width: 100%;
+	position: relative;
+	top: 20%;
+	text-align: center;
+	color: white;
+}
+.content h1{
+	font-size: 40px;
+	margin-top: 30px;
+}
+.content p{
+	font-size:20px; 
+	margin: 80px auto;
+	font-weight: 50px;
+	line-height: 25px;
+	font-family: DejaVu Sans Mono, monospace;
+	font-stretch: extra-condensed;
+
+
+}
+.subsect{
+	width: 1372px;
+	height: 150vh;
+	top: 50%;
+	position: relative;
+	left: -370px;
+	background-image: url("../html/projects.jpg");
+	background-position: center;
+	background-size: cover;
+	margin-right: 500px;
+
+}
+.logo1{
+	width: 350px;
+	height: 300px;
+	position: center;
+	margin-top: 30px;
+	
+
+
+}
+.content h1{
+	font-size: 80px;
+	font-family: DejaVu Sans Mono, monospace;
+	margin-top: 20px;
+}
+.content p{
+	font-size:20px; 
+	margin: 20px auto;
+	font-weight: 100px;
+	line-height: 25px;
+    font-family: DejaVu Sans Mono, monospace;
+
+}
+.button{
+	font-size: 20px;
+	width: 220px;
+	height: 15px;
+	padding: 15px 0;
+	text-align: center;
+	letter-spacing: 1px;
+	margin: 20px 220px;
+	border-radius: 25px;
+	font-weight: inherit;
+	font-size: 15px;
+	background: #135de0	;
+	cursor: pointer;
+	position: relative;
+
+
+}
+.button .btn{
+	color: white;
+	text-decoration: none;
+}
+
+
+.footer {
+  
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #333333;
+   color: white;
+   text-align: center;
+}
+}
+}
+
